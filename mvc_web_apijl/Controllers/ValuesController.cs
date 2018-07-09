@@ -34,7 +34,7 @@ namespace mvc_web_apijl.Controllers
         {
             return "Otro valor cualquiera de Get" + id;
         }
-
+        //Método de pruebas
         // POST api/values
         [HttpPost]
         public List<PocPersonalData> Post([FromBody]string value)
