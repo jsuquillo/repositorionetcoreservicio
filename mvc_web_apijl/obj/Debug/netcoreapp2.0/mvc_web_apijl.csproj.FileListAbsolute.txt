@@ -9,3 +9,14 @@ H:\Requerimientos\ProyectoPuntoNetCore\mvc_web_apijl\obj\Debug\netcoreapp2.0\mvc
 H:\Requerimientos\ProyectoPuntoNetCore\mvc_web_apijl\obj\Debug\netcoreapp2.0\mvc_web_apijl.AssemblyInfo.cs
 H:\Requerimientos\ProyectoPuntoNetCore\mvc_web_apijl\obj\Debug\netcoreapp2.0\mvc_web_apijl.dll
 H:\Requerimientos\ProyectoPuntoNetCore\mvc_web_apijl\obj\Debug\netcoreapp2.0\mvc_web_apijl.pdb
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\bin\Debug\netcoreapp2.0\mvc_web_apijl.deps.json
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\bin\Debug\netcoreapp2.0\mvc_web_apijl.runtimeconfig.json
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\bin\Debug\netcoreapp2.0\mvc_web_apijl.runtimeconfig.dev.json
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\bin\Debug\netcoreapp2.0\mvc_web_apijl.dll
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\bin\Debug\netcoreapp2.0\mvc_web_apijl.pdb
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\obj\Debug\netcoreapp2.0\mvc_web_apijl.csprojResolveAssemblyReference.cache
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\obj\Debug\netcoreapp2.0\mvc_web_apijl.csproj.CoreCompileInputs.cache
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\obj\Debug\netcoreapp2.0\mvc_web_apijl.AssemblyInfoInputs.cache
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\obj\Debug\netcoreapp2.0\mvc_web_apijl.AssemblyInfo.cs
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\obj\Debug\netcoreapp2.0\mvc_web_apijl.dll
+H:\Requerimientos\ProyectoPuntoNetCore\RepositorioGitHub\repositorionetcoreservicio\mvc_web_apijl\obj\Debug\netcoreapp2.0\mvc_web_apijl.pdb

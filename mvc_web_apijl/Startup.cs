@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Cors.Internal;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,7 +29,18 @@ namespace mvc_web_apijl
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            // Add Cors
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            }));
 
+            services.Configure<MvcOptions>(options =>
+            {
+                options.Filters.Add(new CorsAuthorizationFilterFactory("MyPolicy"));
+            });
             // Add framework services.
             //services.AddDbContext<mremhContext>(options =>
                 //options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
@@ -45,6 +58,8 @@ namespace mvc_web_apijl
             }
 
             app.UseMvc();
+
+            app.UseCors("MyPolicy");
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using mvc_web_apijl.Models;
@@ -9,10 +10,11 @@ using mvc_web_apijl.Models;
 namespace mvc_web_apijl.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("MyPolicy")]
     public class ValuesController : Controller
     {        
         // GET api/values
-        [HttpGet]
+        [HttpGet]        
         public List<PocPersonalData> Get()
         {
             //return new string[] { "value1", "value2" };
@@ -29,7 +31,7 @@ namespace mvc_web_apijl.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
+        [HttpGet("{id}")]        
         public string Get(int id)
         {
             return "Otro valor cualquiera de Get" + id;
